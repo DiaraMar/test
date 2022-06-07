@@ -1,0 +1,10 @@
+<div *ngIf="task">
+
+    <h2>To do list</h2>
+    <div>
+      <label for="task-name">Tâche : </label>
+      <input id="task-name" [(ngModel)]="task.labelTask" placeholder="name">
+      <input id="task-category" [(ngModel)]="task.categoryTask" placeholder="name">
+    </div>
+  
+  </div>
